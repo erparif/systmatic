@@ -1,0 +1,55 @@
+/*===== Tablet Layout=========== */
+
+@media only screen and (min-width:200px) and (max-width:991px){
+    .social_area { max-width: 460px; }
+    .inner_menu {background: none; min-height: auto;}
+    .inner_menu::after {display: none; }
+    .mean-container .mean-nav { width: 78%; margin-top: 0px; }
+    .inner_heder {padding: 15px 0; }
+    #slider_area {padding-top: 20px; }
+    .text_area h2 { font-size: 59px; }
+    #work_area {padding:15px;}
+    .work_width h2 { font-size: 22px;}
+    .clients_text h3 { font-size: 15px; padding: 10px 0px 15px 65px;}
+    #footer_area { margin: 20px 0; }
+    .child_footer h3 { font-size: 15px;}
+
+}
+/*===== iphone 6/7/8 Plush ios 11 Layout=========== */
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    .mini_minu { width: 100%; margin-bottom: 10px; }
+    .mini_minu ul, .social_area ul {text-align: center;}
+    .search_area, .logo_area { float: none; width: 250px; margin: 0 auto; text-align: center;}
+    .social_area ul li {  margin: 0 5px;}
+    .social_area { padding-top: 10px;}
+    .hero_area {margin: 10px 0;}
+    .img_area {width: 100%; float: none;}
+    .text_area {float: none; width: 100%; padding: 0; }
+    .text_area h2 { font-size: 30px;}
+    #work_area {margin-top: 20px; }
+    .work_width { width: 98%;}
+    .work_width h2 {text-align: center; }
+    .about_area img { margin: 0 auto; }
+    .about_area p {text-align: justify; }
+    .child_footer {width: 96%;}
+    .child_footer h3 {border: none; text-decoration: underline; }
+    .contact_us {text-align: center; }
+    .left_copyright {width: 100%;float: none; }
+    .right_copyright {width: 100%; float: none; text-align: left; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
